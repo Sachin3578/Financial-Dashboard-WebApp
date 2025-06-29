@@ -1,0 +1,22 @@
+[
+  { "user_id": "user_001", "name": "Aryan Mehta" },
+  { "user_id": "user_002", "name": "Sneha Patil" },
+  { "user_id": "user_003", "name": "Rahul Nair" },
+  { "user_id": "user_004", "name": "Aditi Sharma" },
+  { "user_id": "user_005", "name": "Kunal Joshi" },
+  { "user_id": "user_006", "name": "Neha Deshmukh" },
+  { "user_id": "user_007", "name": "Rohit Verma" },
+  { "user_id": "user_008", "name": "Meera Iyer" },
+  { "user_id": "user_009", "name": "Tushar Gaikwad" },
+  { "user_id": "user_010", "name": "Priya Menon" },
+  { "user_id": "user_011", "name": "Ankit Raj" },
+  { "user_id": "user_012", "name": "Divya Kale" },
+  { "user_id": "user_013", "name": "Harshad Kulkarni" },
+  { "user_id": "user_014", "name": "Ritika Jadhav" },
+  { "user_id": "user_015", "name": "Sanket Thakur" },
+  { "user_id": "user_016", "name": "Bhavana Reddy" },
+  { "user_id": "user_017", "name": "Nikhil Dey" },
+  { "user_id": "user_018", "name": "Simran Arora" },
+  { "user_id": "user_019", "name": "Varun Saxena" },
+  { "user_id": "user_020", "name": "Ishita Pandey" }
+]
