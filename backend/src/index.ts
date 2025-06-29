@@ -7,6 +7,7 @@ import statsRouter from "../src/routes/stats.route"
 import chartRouter from "../src/routes/chart.route";
 import transactionRouter from "./routes/transaction.route";
 import alltransactionRouter from "./routes/allTransaction.route";
+import authRouter from "./routes/auth.routes"; 
 
 dotenv.config();
 const app = express();
@@ -24,6 +25,7 @@ app.use("/api/stats", statsRouter);
 app.use("/api/chart", chartRouter);
 app.use("/api/transactions", transactionRouter);
 app.use("/api/alltransactions", alltransactionRouter);
+app.use("/api/auth", authRouter);
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Server running with TypeScript!");

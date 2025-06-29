@@ -1,8 +1,9 @@
 import { Router } from "express";
 import { getStats } from "../controllers/stats.controller";
+import { authenticateJWT } from "../middlewares/auth.middleware";
 
-const statsRouter = Router();
+const router = Router();
 
-statsRouter.get("/", getStats);
+router.get("/", authenticateJWT, getStats);
 
-export default statsRouter;
+export default router;
